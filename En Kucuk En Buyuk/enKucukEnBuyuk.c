@@ -4,11 +4,7 @@
 #define Boyut   7
 
 
-/*
-GRUP ÜYELERÝ
-Yasin CAN 201613172907 
-Eren ÞAKRAK 201913172041
-*/
+
 
 int main()
 {
