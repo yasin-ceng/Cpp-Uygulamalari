@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
-GRUP ÜYELERÝ
-Yasin CAN 201613172907 
-Eren ÞAKRAK 201913172041
-*/
+
 
 int main(int argc, char *argv[]) {
 	
@@ -14,12 +10,12 @@ int main(int argc, char *argv[]) {
 	int i=0, j=0 , k=0, l=0;
 
 	
-	printf("Matris boyutlarýný giriniz:\n");
+	printf("Matris boyutlarÃ½nÃ½ giriniz:\n");
 	scanf("%d%d",&m,&n);
 
 	int matrisA[m][n], matrisB[m][n], matrisC[m][(m+n)];
 	
-	printf("A matrisi deðerlerini sýrasýyla giriniz:\n");
+	printf("A matrisi deÃ°erlerini sÃ½rasÃ½yla giriniz:\n");
 	
 	for(i=0; i<m; i++)
 		for(j=0; j<n; j++)
@@ -27,7 +23,7 @@ int main(int argc, char *argv[]) {
 		
 
 		
-	printf("B matrisi deðerlerini sýrasýyla giriniz:\n");
+	printf("B matrisi deÃ°erlerini sÃ½rasÃ½yla giriniz:\n");
 	
 	for(i=0; i<m; i++)
 		for(j=0; j<n; j++)
@@ -53,7 +49,7 @@ int main(int argc, char *argv[]) {
 		printf("\n");
 	}
 		
-	//Matrisleri matrisC'de birleþtiriyoruz;
+	//Matrisleri matrisC'de birleÃ¾tiriyoruz;
 		
 		printf("\n\n");
 	for(i=0;i<m;i++)
@@ -72,7 +68,7 @@ int main(int argc, char *argv[]) {
 		printf("\n");
 	}
 		
-	//Sýralama algoritmasý için MatrisC hazýr;
+	//SÃ½ralama algoritmasÃ½ iÃ§in MatrisC hazÃ½r;
 
 	for(i=0;i<m;i++){
 		for(j=0;j<(m+n);j++)
@@ -86,7 +82,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	
-	//Sýralama Sonucu Ekrana Yazýdýrabiliriz
+	//SÃ½ralama Sonucu Ekrana YazÃ½dÃ½rabiliriz
 		printf("\n");
 	for(i=0;i<m;i++){
 	
