@@ -2,11 +2,7 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-/*
-GRUP ÜYELERİ
-Yasin CAN 201613172907 
-Eren ŞAKRAK 201913172041
-*/
+
 
 int main(int argc, char *argv[]) {
 	
@@ -14,7 +10,7 @@ int main(int argc, char *argv[]) {
 	 int T;
 	
 	
-	//Her iki doğrunun değerlerini alıyoruz
+	//Her iki doÄŸrunun deÄŸerlerini alÄ±yoruz
 	
 	printf("[AB] dogrusunun Ax koordinatini giriniz:");
 	scanf("%d",&Ax);
@@ -44,7 +40,7 @@ int main(int argc, char *argv[]) {
 	Ey = (Ay + (By-Ay)*T);
 	
 	
-	printf("[AB] ve [CD] Doğru Parçasının Kesişimi Olan E noktası koordinatları:");
+	printf("[AB] ve [CD] DoÄŸru ParÃ§asÄ±nÄ±n KesiÅŸimi Olan E noktasÄ± koordinatlarÄ±:");
 	printf("\nEx:%d\nEy:%d",Ex,Ey);
 	
 	
