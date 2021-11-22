@@ -1,5 +1,5 @@
 # Doğru Parçası ve Kürenin Kesişim Noktaları
-- Program, iki doğru parçasının kesim noktasını bulmaktadır.
+- Program, doğru parçası ve kürenin kesişim noktasını bulmaktadır.
 
 
 ### _Ortam Bilgileri_
