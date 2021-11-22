@@ -3,11 +3,7 @@
 #include <locale.h>
 #include <math.h>
 
-/*
-GRUP ÜYELERİ
-Yasin CAN 201613172907 
-Eren ŞAKRAK 201913172041
-*/
+
 
 int main(int argc, char *argv[]) {
 	setlocale(LC_ALL,"Turkish");
@@ -33,25 +29,25 @@ int main(int argc, char *argv[]) {
 	float r,k1,k2;
 	
 	
-	printf("***Program Daire ile Doğru Parçasının Kesişimini Hesaplar***");
-	printf("\nDoğru parçasının üzerinden düzlem boyunca p1 ve p2 noktaları alınmıştır");
-	printf("\nKürenin yarıcapi r ve merkezi ise sc olarak tanımlanmıstır");
-	printf("\nEn fazla iki kesişme noktası olabilir ve bunlar aşağıda verilmiştir:");
+	printf("***Program Daire ile DoÄŸru ParÃ§asÄ±nÄ±n KesiÅŸimini Hesaplar***");
+	printf("\nDoÄŸru parÃ§asÄ±nÄ±n Ã¼zerinden dÃ¼zlem boyunca p1 ve p2 noktalarÄ± alÄ±nmÄ±ÅŸtÄ±r");
+	printf("\nKÃ¼renin yarÄ±capi r ve merkezi ise sc olarak tanÄ±mlanmÄ±stÄ±r");
+	printf("\nEn fazla iki kesiÅŸme noktasÄ± olabilir ve bunlar aÅŸaÄŸÄ±da verilmiÅŸtir:");
 	printf("\np = p1 + k1 (p2 - p1)");
 	printf("\np = p1 + k2 (p2 - p1)");
-	printf("\nEger hiçbir kesişim yok ise bu durumda program bilgi verir");
+	printf("\nEger hiÃ§bir kesiÅŸim yok ise bu durumda program bilgi verir");
 	
-	printf("\n\n p1 noktasının x,y ve z koordinatlarını sırayla giriniz\n");
+	printf("\n\n p1 noktasÄ±nÄ±n x,y ve z koordinatlarÄ±nÄ± sÄ±rayla giriniz\n");
 	scanf("%f%f%f",&p1.x,&p1.y,&p1.z);
 	
 	
-	printf("\n\n p2 noktasının x,y ve z koordinatlarını sırayla giriniz\n");
+	printf("\n\n p2 noktasÄ±nÄ±n x,y ve z koordinatlarÄ±nÄ± sÄ±rayla giriniz\n");
 	scanf("%f%f%f",&p2.x,&p2.y,&p2.z);
 	
-	printf("\n\n Kürenin merkez koordinatlarını sırayla x,y ve z olarak giriniz:\n");
+	printf("\n\n KÃ¼renin merkez koordinatlarÄ±nÄ± sÄ±rayla x,y ve z olarak giriniz:\n");
 	scanf("%f%f%f",&sc.x,&sc.y,&sc.z);
 	
-	printf("\n\n Kürenin yarıçapını (r) giriniz:\n");
+	printf("\n\n KÃ¼renin yarÄ±Ã§apÄ±nÄ± (r) giriniz:\n");
 	scanf("%f",&r);
 	
 	
@@ -85,14 +81,14 @@ int main(int argc, char *argv[]) {
    if (delta < 0) {
       k1 = 0;
       k2 = 0;
-      printf("\nKesişim Noktası Yoktur");
+      printf("\nKesiÅŸim NoktasÄ± Yoktur");
       return(0);
    }
 
    k1 = (-b + sqrt(delta)) / (2 * a);
    k2 = (-b - sqrt(delta)) / (2 * a);
 	
-	printf("\nKesişim Noktaları:");
+	printf("\nKesiÅŸim NoktalarÄ±:");
 	printf("%f %f",k1,k2);	
 	
 	return 0;
