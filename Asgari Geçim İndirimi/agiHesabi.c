@@ -2,11 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-/*
-GRUP ÜYELERÝ
-Yasin CAN 201613172907 
-Eren ÞAKRAK 201913172041
-*/
+
 
 int main(int argc, char *argv[]) {
 	
@@ -36,11 +32,11 @@ int main(int argc, char *argv[]) {
 	}cocuk;
 	
 	
-	printf("Kaç Yaþýndasýnýz ?\t:");
+	printf("KaÃ§ YaÃ¾Ã½ndasÃ½nÃ½z ?\t:");
 	scanf("%d",&calisan.yas);
 	if(calisan.yas<=16)
 	{
-		printf("AGÝ için 16 yaþýndan büyük olmanýz gerekmektedir!");
+		printf("AGÃ iÃ§in 16 yaÃ¾Ã½ndan bÃ¼yÃ¼k olmanÃ½z gerekmektedir!");
 		return 0;
 	}
 	 
@@ -51,7 +47,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&calisan.evliMi);
 		if(calisan.evliMi){
 		
-			printf("Eþiniz Çalýþýyor mu? (0 veya  1)\t:");
+			printf("EÃ¾iniz Ã‡alÃ½Ã¾Ã½yor mu? (0 veya  1)\t:");
 			scanf("%d", &calisan.esCalisiyor);
 			if(!(calisan.esCalisiyor))
 				agiPuani+=0.1;
@@ -60,16 +56,16 @@ int main(int argc, char *argv[]) {
 			
 	if(calisan.evliMi){
 
-	printf("Çocuðunuz var mý ? (0 veya 1)\t:");
+	printf("Ã‡ocuÃ°unuz var mÃ½ ? (0 veya 1)\t:");
 	scanf("%d",&calisan.cocukVar);
 	
 		if(calisan.cocukVar){
-				printf("Kaç çocuðunuz var?\t:");
+				printf("KaÃ§ Ã§ocuÃ°unuz var?\t:");
 				scanf("%d",&calisan.cocukSayisi);
 				for(i=1; i<=calisan.cocukSayisi; i++){
-					printf("%d. Çocuðunuz Kaç Yaþýnda?\t:",i);
+					printf("%d. Ã‡ocuÃ°unuz KaÃ§ YaÃ¾Ã½nda?\t:",i);
 					scanf("%d",&cocuk.yas);
-					printf("%d. Çocuðunuz eðitimine devam ediyor mu? (0 veya 1)\t:",i);
+					printf("%d. Ã‡ocuÃ°unuz eÃ°itimine devam ediyor mu? (0 veya 1)\t:",i);
 					scanf("%d",&cocuk.egitim);				
 				
 					
@@ -88,14 +84,14 @@ int main(int argc, char *argv[]) {
 				}		
 		}
 	}
-	printf("Agi Puaný:%d ",agiPuani);
+	printf("Agi PuanÃ½:%d ",agiPuani);
 	
 	agiMatrahi= (12*netAsgari)*agiPuani;
 	aylikAgiTutari = (agiMatrahi*0.15)/12;
 	brutAsgari= netAsgari + aylikAgiTutari;
 	
 	
-	printf("Çalýþanýn alacaðý brüt asgari ücret: %.3f TL",brutAsgari);
+	printf("Ã‡alÃ½Ã¾anÃ½n alacaÃ°Ã½ brÃ¼t asgari Ã¼cret: %.3f TL",brutAsgari);
 	
 
 	
